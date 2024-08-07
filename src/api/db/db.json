@@ -1,0 +1,187 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "genre": "Science Fiction",
+      "description": "A comedic sci-fi adventure following the hapless Arthur Dent after the Earth is demolished to make way for a hyperspace bypass.",
+      "image": "/book1.png",
+      "startDate": "2023-10-15",
+      "endDate": "2023-11-05",
+      "notes": "Hilarious and thought-provoking.",
+      "language": "English",
+      "pages": 354
+    },
+    {
+      "id": "2",
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Classic",
+      "description": "A coming-of-age story set in the American South during the 1930s, exploring themes of racism and injustice.",
+      "image": "/book2.png",
+      "startDate": "2023-12-20",
+      "endDate": "2024-01-15",
+      "notes": "A timeless classic with powerful characters.",
+      "language": "English",
+      "pages": 354
+    },
+    {
+      "id": "3",
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "description": "A chilling portrayal of a totalitarian society where surveillance and thought control are the norm.",
+      "image": "/book3.png",
+      "startDate": "2024-01-10",
+      "endDate": "2024-02-05",
+      "notes": "Disturbing and thought-provoking.",
+      "language": "English",
+      "pages": 354
+    },
+    {
+      "id": "4",
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "description": "A witty and charming love story set in Regency England, exploring themes of social class and marriage.",
+      "image": "/book4.png",
+      "startDate": "2023-12-20",
+      "endDate": "2024-01-15",
+      "notes": "Classic romance with strong female characters.",
+      "language": "English",
+      "pages": 354
+    },
+    {
+      "id": "5",
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Inspirational",
+      "description": "A young shepherd embarks on a journey to find treasure and discovers personal growth along the way.",
+      "image": "/book5.png",
+      "startDate": "2023-12-20",
+      "endDate": "2024-01-15",
+      "notes": "Inspiring and philosophical.",
+      "language": "English",
+      "pages": 354
+    },
+    {
+      "id": "6",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "description": "A story of wealth, love, and the American Dream set in the Jazz Age.",
+      "image": "/book6.png",
+      "startDate": "2023-12-20",
+      "endDate": "2024-01-15",
+      "notes": "A classic exploration of the American Dream.",
+      "language": "English",
+      "pages": 354
+    },
+    {
+      "id": "7",
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Coming-of-age",
+      "description": "A rebellious teenager's search for authenticity in a phony world.",
+      "image": "/book7.png",
+      "startDate": "2023-11-25",
+      "endDate": "2023-12-10",
+      "notes": "Controversial and thought-provoking.",
+      "language": "English",
+      "pages": 354
+    },
+    {
+      "id": "8",
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Dystopian",
+      "description": "A futuristic society where happiness is engineered and individuality is suppressed.",
+      "image": "/book8.png",
+      "startDate": "2023-12-20",
+      "endDate": "2024-01-15",
+      "notes": "Disturbing and thought-provoking.",
+      "language": "English",
+      "pages": 354
+    },
+    {
+      "id": "9",
+      "title": "One Hundred Years of Solitude",
+      "author": "Gabriel Garcia Marquez",
+      "genre": "Magical Realism",
+      "description": "A multi-generational saga of the Buendía family in the fictional town of Macondo.",
+      "image": "/book9.png",
+      "startDate": "2024-02-15",
+      "endDate": "2024-03-10",
+      "notes": "Rich and complex storytelling.",
+      "language": "English",
+      "pages": 354
+    },
+    {
+      "id": "10",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "genre": "Nonfiction",
+      "description": "A sweeping exploration of the history of humanity and its impact on the world.",
+      "image": "/book10.png",
+      "startDate": "2023-12-20",
+      "endDate": "2024-01-15",
+      "notes": "Informative and thought-provoking.",
+      "language": "English",
+      "pages": 354
+    }
+  ],
+  "bookShelf": [
+    {
+      "id": "f5e8",
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "description": "A story of wealth, love, and the American Dream set in the Jazz Age.",
+      "image": "/book6.png",
+      "startDate": "2023-12-20",
+      "endDate": "2024-01-15",
+      "notes": "A classic exploration of the American Dream.",
+      "language": "English",
+      "pages": 354,
+      "shelf": true,
+      "bookId": "6",
+      "userId": "1"
+    },
+    {
+      "id": "def1",
+      "title": "Sapiens: A Brief History of Humankind",
+      "author": "Yuval Noah Harari",
+      "genre": "Nonfiction",
+      "description": "A sweeping exploration of the history of humanity and its impact on the world.",
+      "image": "/book10.png",
+      "startDate": "2023-12-20",
+      "endDate": "2024-01-15",
+      "notes": "Informative and thought-provoking.",
+      "language": "English",
+      "pages": 354,
+      "shelf": true,
+      "bookId": "10",
+      "userId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "email": "bjayballola@gmail.com",
+      "username": "bjay_balola",
+      "name": "Billy Joel Ballola",
+      "password": "sample123",
+      "image": "https://images.unsplash.com/photo-1491528323818-fdd1faba62cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+    },
+    {
+      "id": "72ee",
+      "email": "juan@gmail.com",
+      "username": "juan2345",
+      "image": "https://scontent.fmnl33-1.fna.fbcdn.net/v/t39.30808-6/449836562_3756243244599505_1409008851521249985_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEUyoLbjxsU5ktWezIyujBybwc5DmI7jT1vBzkOYjuNPfhV8q2SkMwGOZ5qZR-Bnk-wGYH1QPxZlGxMnkRrF7Tx&_nc_ohc=lmNbcI5hgoYQ7kNvgEBojoA&_nc_ht=scontent.fmnl33-1.fna&oh=00_AYAN2awBDa545sk5s6G7vr_rB5HKRPg5XQ9TJ8vbUT_gqA&oe=66B8C054",
+      "name": "Juan Dela Cruz",
+      "password": "sample",
+      "confirmPassword": "sample123"
+    }
+  ]
+}

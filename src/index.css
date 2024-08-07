@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jomolhari&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-text-color font-body;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-headers;
+}
+
+.side-nav a {
+  @apply p-2 bg-transparent rounded-full;
+}
+
+.side-nav a.active {
+  @apply bg-accent-color text-white;
+}
+
+.home-banner {
+  background-image: url("../public/bg-home.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel {
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.carousel::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit browsers (Chrome, Safari) */
+}
+
+input,
+select,
+textarea {
+  @apply text-inherit p-2 border border-bg-dark rounded-lg;
+}
+
+.form-group {
+  @apply grid gap-1;
+}
+
+.form-group label {
+  @apply text-sm;
+}
